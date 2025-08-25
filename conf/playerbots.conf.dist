@@ -85,8 +85,8 @@ AiPlayerbot.Enabled = 1
 AiPlayerbot.RandomBotAutologin = 1
 
 # Randombot count
-AiPlayerbot.MinRandomBots = 500
-AiPlayerbot.MaxRandomBots = 500
+AiPlayerbot.MinRandomBots = 800
+AiPlayerbot.MaxRandomBots = 900
 
 # Randombot accounts
 # If you are not using any expansion at all, you may have to set this manually, in which case please ensure that RandomBotAccountCount is at least greater than (MaxRandomBots / 10 + AddClassAccountPoolSize)
@@ -156,7 +156,7 @@ AiPlayerbot.AllowTrustedAccountBots = 1
 AiPlayerbot.RandomBotGuildNearby = 0
 
 # Number of guilds created by randombots
-AiPlayerbot.RandomBotGuildCount = 20
+AiPlayerbot.RandomBotGuildCount = 0
 
 # Delete all randombot guilds if set to 1
 AiPlayerbot.DeleteRandomBotGuilds = 0
@@ -165,14 +165,14 @@ AiPlayerbot.DeleteRandomBotGuilds = 0
 AiPlayerbot.RandomBotInvitePlayer = 0
 
 # Bots will chat in say/guild when they invite other bots to groups/raids/guilds
-AiPlayerbot.InviteChat = 0
+AiPlayerbot.InviteChat = 1
 
 # Bots will be automatically summoned to the player when they accept a group invitation
 AiPlayerbot.SummonWhenGroup = 1
 
 # Player can be activated as a bot (selfbot)
 # Selfbot permission level (0 = disabled, 1 = GM only (default), 2 = all players, 3 = activate on login)
-AiPlayerbot.SelfBotLevel = 1
+AiPlayerbot.SelfBotLevel = 2
 
 # Give free food to bots
 # Default: 1 (enabled)
